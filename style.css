@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800;900&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+    background: rgba(0, 0, 0, 0.771);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Inconsolata';
+
+}
+
+.heading {
+    color: aqua;
+    text-shadow: 2px 2px 20px aqua;
+    letter-spacing: 2px;
+
+}
+
+.container {
+    background: white;
+    max-width: 80vw;
+    min-width: 60vw;
+    height: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 0 20px rgb(103, 103, 103);
+}
+
+.greet {
+    font-size: 25px;
+
+
+}
+
+.greet input {
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+form {
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.double {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0 30px;
+}
+
+.form-check-field {
+    display: flex;
+    gap: 10px;
+
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1 px solid gray;
+}
+
+
+button {
+    background-color: red;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+button:hover {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.589);
+    transition: all 0.4s;
+    scale: 0.96;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 30px;
+    overflow: auto;
+    padding: 10px;
+    height: 100%;
+
+}
+
+.expense {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* https://getcssscan.com/css-box-shadow-example */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+
+.expense .price {
+    color: red;
+}
+
+
+.expense .btns img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+/*ödenmiş olana verilecek stiller*/
+.payed {
+    opacity: 0.7;
+}
+
+.payed .name {
+    text-decoration: line-through;
+}
+
+.payed .price {
+    color: green;
+}
+
+.sum {
+    background-color: rgb(0, 0, 45);
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+#sum-info {
+    color: yellow;
+}
+
+select {
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px;
+}
