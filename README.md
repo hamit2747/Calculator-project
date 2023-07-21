@@ -1,3 +1,6 @@
+![Sceen GİF](screen.gif.gif)
+
+
 # Technologies used in the project
 
 - HTML
@@ -61,4 +64,3 @@ break
 
 
 
-![Sceen GİF](screen.gif.gif)
