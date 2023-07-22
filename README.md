@@ -28,7 +28,7 @@
 
 - butona tıklandığında kapsyayıcısın html'den kaldır
 - kaldırılan harcamanın fiyatını toplamdan çıkart
-kullanıcı ismini al
+kullanıcı ismini al.
 
 - ve ismi localstroage a kaydet
 - kullanıcı uygulamaya girdiğinde localstroage'a ismi kaydedilmişse onu al ve inputa aktar
